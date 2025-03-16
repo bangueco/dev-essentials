@@ -10,14 +10,14 @@ echo "Enter your git username: "
 read gitUsername
 
 echo "Setting git username..."
-git config --global user.name = $gitUsername
+git config --global user.name $gitUsername
 
 # For setting up git email
 echo "Enter your git email: "
 read gitEmail
 
 echo "Setting git email..."
-git config --global user.email = $gitEmail
+git config --global user.email $gitEmail
 
 # For setting up git ssh
 generateKey=""
